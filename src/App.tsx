@@ -88,12 +88,6 @@ const App: React.FC = () => {
     }
   }
 
-  const handleKeyDown = (e: React.KeyboardEvent) => {
-    if (e.key === "Enter" && newTodo.trim()) {
-      addTodo([newTodo.trim()])
-    }
-  }
-
   // ============================================
   // RENDER
   // ============================================
@@ -144,7 +138,6 @@ const App: React.FC = () => {
           placeholder="What needs to be done?"
           value={newTodo}
           onChange={(e) => setNewTodo(e.target.value)}
-          onKeyDown={handleKeyDown}
           disabled={isAdding}
           autoFocus
         />
