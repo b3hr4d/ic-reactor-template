@@ -44,7 +44,7 @@ A modern, production-ready Todo application built on the **Internet Computer** u
 
 ```bash
 git clone <your-repo-url>
-cd ic-reactor-todo
+cd ic-reactor-template
 npm install
 ```
 
@@ -135,10 +135,9 @@ addTodo(["My new todo"])
 
 ## 📚 Learn More
 
-- [IC Reactor Documentation](https://ic-reactor.dev)
+- [IC Reactor Documentation](https://b3pay.github.io/ic-reactor/v3/)
 - [Internet Computer Docs](https://internetcomputer.org/docs)
 - [Motoko Language Guide](https://internetcomputer.org/docs/current/motoko/main/motoko)
-- [TanStack Query](https://tanstack.com/query)
 
 ## 🚢 Deploying to Mainnet
 

@@ -11,7 +11,7 @@
 
 import { ClientManager, DisplayReactor } from "@ic-reactor/react"
 import { QueryClient } from "@tanstack/react-query"
-import { idlFactory, canisterId } from "./declarations/todo"
+import { canisterId, idlFactory } from "./declarations/todo"
 import type { _SERVICE } from "./declarations/todo/todo.did"
 
 // ============================================
